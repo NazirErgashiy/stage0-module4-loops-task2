@@ -4,6 +4,9 @@ public class Multiplication {
     public void printMultiplied(int multiplyByAndToInclusive) {
         int n = 0;
         int x;
+        if(multiplyByAndToInclusive==0)
+            return;
+
         if (multiplyByAndToInclusive > 0) {
             x = multiplyByAndToInclusive * multiplyByAndToInclusive;
             while (n <= x) {
